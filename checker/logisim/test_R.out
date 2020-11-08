@@ -1,0 +1,22 @@
+v2.0 raw
+0 1 ffffffff 7fffffff 80000000 80000001 2 0
+80000000 80000001 80000002 fffffffe 7ffffffe 7fffffff 80000000 fffffffe
+ffffffff 0 0 1 2 484c 4ec6 ffff77b3
+0 ffffffff 1 80000001 80000000 7fffffff 0 2
+80000002 80000001 80000000 0 80000000 7fffffff 7ffffffe 0
+ffffffff fffffffe 0 ffffffff 0 45d8 c8e2 ffffa858
+0 1 0 1 4*0 1 0 0
+0 1 6*0 1 0 1 0 1
+0 5*1 0 4*1 5*0 1 1 0
+1 0 0 1 7*0 1 1 1
+0 1 ffffffff 7fffffff 80000000 80000001 7fffffff 0
+1 80000000 80000000 80000001 4 910 ffffb248 0
+1 ffffffff 7fffffff 80000000 80000001 1 ffffffff 7fffffff
+80000001 80000001 4*ffffffff 7fffffff ffffffff ffffffff 80000000 80000001
+80000001 55df ffffef5f fffffabb 0 1 ffffffff 7fffffff
+80000000 80000001 0 fffffffe 7ffffffe 80000001 80000000 0
+80000000 7fffffff 7ffffffe 0 ffffffff fffffffe 0 1
+0 2f8 ffff9bd3 2d1c ffffffff fffffffe 0 80000000
+7fffffff 7ffffffe fffffffe 0 80000000 7ffffffe 7ffffffe 4*0
+80000000 0 0 7fffffff 7ffffffe 7ffffffe ffff8180 4500
+1a04
