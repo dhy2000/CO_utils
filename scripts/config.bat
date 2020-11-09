@@ -1,13 +1,13 @@
 @echo off
-:: Public Configurations Bats
+:: Test Case, (need to modify by myself) 
+set TESTPATH=run
+set TESTCASE=loadstore
 
+:: Public Configurations Bats
 set MARS_PATH=..\Mars
-set ASM_PATH=..\asms
+set ASM_PATH=..\asms\%TESTPATH%
 set OUT_PATH=..\out
 set CHECKER_PATH=..\checker
-
-:: Test Case, (need to modify by myself) 
-set TESTCASE=loadstore
 
 set MARS=%MARS_PATH%\Mars_modified.jar
 set ASM=%ASM_PATH%\%TESTCASE%.asm
