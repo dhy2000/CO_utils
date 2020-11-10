@@ -1,6 +1,6 @@
 # Logisim 内存输出整理程序
 
-主程序： `logisim.exe` ，源代码： `logisim.c` 
+主程序： `logisimram.exe` ，源代码： `logisimram.c` 
 
 本程序用于将 Logisim 运行 CPU 后导出的 RAM 数据进行整理，得到一行一字的标准 hex 内存格式。
 
@@ -8,7 +8,7 @@ Logisim 中导出的 RAM 数据的格式相对较乱，其主体格式为每行 
 
 使用方法：
 ```
-logisim.exe < [ram_from_logisim] > [ram_aligned]
+logisimram.exe < [ram_from_logisim] > [ram_aligned]
 ```
 
 其中 `[ram_from_logisim]` 为 Logisim 导出的 RAM 内容(文本文件)， `[ram_aligned]` 为经过整合后的，参照 Mars 格式的内存内容(文本文件)。使用时应注意不要忘记重定向符号。

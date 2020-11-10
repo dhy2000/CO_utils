@@ -1,2 +1,8 @@
 .vscode
-disassemble
+disassemble/mips-dasm
+out
+**.rar
+**.zip
+**.asm
+!asms/**.asm
+**.hex

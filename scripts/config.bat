@@ -1,7 +1,7 @@
 @echo off
 :: Test Case, (need to modify by myself) 
-set TESTPATH=run
-set TESTCASE=loadstore
+set TESTPATH=chenrt
+set TESTCASE=test_allRP2
 
 :: Public Configurations Bats
 set MARS_PATH=..\Mars
